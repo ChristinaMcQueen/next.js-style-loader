@@ -1,17 +1,16 @@
 {
-    "name": "llama",
+    "name": "next.js-style-loader",
     "version": "1.0.0",
-    "description": "Project for I.C.O",
+    "description": "Project for next.js to load multiple CSS files",
     "main": "index.js",
     "scripts": {
         "dev": "next -p 8110",
         "build": "next build && next export",
-        "start": "next start -p 8110",
-        "test": ""
+        "start": "next start -p 8110"
     },
     "keywords": [
-        "next",
-        "I.C.O"
+        "next.js",
+        "style-loader"
     ],
     "author": "Front-end",
     "license": "ISC",

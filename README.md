@@ -3,10 +3,10 @@
 Next.js 多种外部样式文件引入
 Make it possible to load multiple CSS files in next.js
 
-# Next.js 教程
+## Next.js 教程
 🍭[zeit/next.js](https://github.com/zeit/next.js) || 🍭[learnnextjs.com](https://learnnextjs.com/basics/getting-started) 给出了相对比较完整的 Next.js 使用教程。
 
-# 引入样式文件
+## 引入样式文件
 刚刚接触 Next.js，还不是十分了解，第一个遇到的就是样式文件引入的问题，Next.js 支持样式文件引入，包括 `.css`、`.less`、`.styl`、`.scss`，如果仅需引入一种文件，可以 🍭[戳这里](https://github.com/zeit/next.js#importing-css--sass--less--stylus-files)或者下面列出的模块，亲测可以解决样式引入的问题
 
 * [@zeit/next-css](https://github.com/zeit/next-plugins/tree/master/packages/next-css)
@@ -14,7 +14,7 @@ Make it possible to load multiple CSS files in next.js
 * [@zeit/next-less](https://github.com/zeit/next-plugins/tree/master/packages/next-less)
 * [@zeit/next-stylus](https://github.com/zeit/next-plugins/tree/master/packages/next-stylus)
 
-# 多种样式文件引入
+## 多种样式文件引入
 
 由于项目是团队开发，每个人的代码习惯会有所不同，那么，如果想引入多种文件就比较麻烦。我将以上模块进行了合并：
 
