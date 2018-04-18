@@ -1,4 +1,7 @@
-# next.js-style-loaders
+# 🦄🦄🦄next.js-style-loaders
+
+Next.js 多种外部样式文件引入
+Make it possible to load multiple CSS files in next.js
 
 # Next.js 教程
 🍭[zeit/next.js](https://github.com/zeit/next.js) || 🍭[learnnextjs.com](https://learnnextjs.com/basics/getting-started) 给出了相对比较完整的 Next.js 使用教程。
