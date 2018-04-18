@@ -72,36 +72,26 @@ module.exports = {
 
             config.module.rules.push({
                 test: /\.css$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!(reset-css|normalize.css)\/).*/,
                 use: options.defaultLoaders.css
             }, {
                 test: /\.less$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!(reset-css|normalize.css)\/).*/,
                 use: options.defaultLoaders.less
             }, {
                 test: /\.styl(us)?$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!(reset-css|normalize.css)\/).*/,
                 use: options.defaultLoaders.stylus
             }, {
                 test: /\.scss$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!(reset-css|normalize.css)\/).*/,
                 use: options.defaultLoaders.sass
             }, {
                 test: /\.sass$/,
-                exclude: /node_modules/,
+                exclude: /node_modules\/(?!(reset-css|normalize.css)\/).*/,
                 use: options.defaultLoaders.sass
             });
         }
         return config;
-    },
-    webpackDevMiddleware: config => config,
-    exportPathMap(defaultPathMap) {
-        return {
-            '/': { page: '/' },
-            '/about': { page: '/about' },
-            '/p/hello-nextjs': { page: '/post', query: { title: 'hello-nextjs' } },
-            '/p/learn-nextjs': { page: '/post', query: { title: 'learn-nextjs' } },
-            '/p/deploy-nextjs': { page: '/post', query: { title: 'deploy-nextjs' } }
-        };
     }
 };
