@@ -49,6 +49,7 @@ module.exports = (config, test = /\.css$/) => {
 
 ```javascript
 const findUp = require('find-up');
+
 module.exports = (
     config,
     extractPlugin,
